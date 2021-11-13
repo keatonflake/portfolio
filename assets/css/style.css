@@ -7,7 +7,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;;
+    font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;
+    background-color: var(--grey);
   }
 
   .stickyheader{
@@ -19,7 +20,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    /* background-image: url(); */
+    background-image: url('images\This Page (1550 x 500 px).png');
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -56,41 +57,37 @@
     text-shadow: none;
   }
 
-  .personal-background {
-    background-image: url("./assets/images/");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
+  .dessert {
+    width: 100%;
+  }
+  .banner {
+    display: none;
   }
   
   .about{
     font-size: 25px;
     border-bottom: 3px solid;
-    color: var(black);
+    color: black;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 100%;
   }
   
   .work {
     font-size: 25px;
     border-bottom: 3px solid;
-    color: var(black);
+    color: black;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
-    width: 50%;
+    width: 100%;
   }
 
   .contact {
     font-size: 25px;
   border-bottom: 3px solid;
-  color: var(black);
+  color: black;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
@@ -100,16 +97,9 @@
   .footer {
     font-size: 25px;
   border-bottom: 3px solid;
-  color: var(black);
+  color: black;
   padding-bottom: 20px;
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
   }
-  /* .tree-background { */
-    /* margin: 0 auto;
-    width: 1000px;
-    width: 300px;
-    height: 200px;
-    background-image: url(images\tree_edited.jpg);
-    background-size: 100%; */
