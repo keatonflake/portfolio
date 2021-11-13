@@ -57,7 +57,7 @@
   }
 
   .personal-background {
-    background-image: url('./assets/');
+    background-image: url("./assets/images/pic.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -66,4 +66,43 @@
     background-attachment: fixed;
     background-position: 80%;
   }
+  
+  .about{
+    font-size: 25px;
+    border-bottom: 3px solid;
+    color: var(black);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  
+  .work {
+    font-size: 25px;
+    border-bottom: 3px solid;
+    color: var(black);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+
+  .contact {
+    font-size: 25px;
+  border-bottom: 3px solid;
+  color: var(black);
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
+  }
+
+  .footer {
+    font-size: 25px;
+  border-bottom: 3px solid;
+  color: var(black);
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
   }
