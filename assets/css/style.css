@@ -19,7 +19,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("../images/hero-bg.jpg");
+    /* background-image: url(); */
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -57,7 +57,7 @@
   }
 
   .personal-background {
-    background-image: url("./assets/images/pic.jpg");
+    background-image: url("./assets/images/");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -105,4 +105,15 @@
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+  }
+  .personal-background {
+    margin: 0 auto;
+    width: 1000px;
+  }
+    
+  .tree {
+    width: 300px;
+    height: 200px;
+    background-image: url(images\tree.png);
+    background-size: 100%;
   }
