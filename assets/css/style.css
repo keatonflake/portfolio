@@ -106,14 +106,10 @@
   margin: 0 auto 35px auto;
   width: 50%;
   }
-  .personal-background {
-    margin: 0 auto;
+  /* .tree-background { */
+    /* margin: 0 auto;
     width: 1000px;
-  }
-    
-  .tree {
     width: 300px;
     height: 200px;
-    background-image: url(images\tree.png);
-    background-size: 100%;
-  }
+    background-image: url(images\tree_edited.jpg);
+    background-size: 100%; */
