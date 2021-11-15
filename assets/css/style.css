@@ -12,6 +12,7 @@
   }
 
   .stickyheader{
+    width: 100%;
     padding: 20px 35px;
     background-color: var(--blue);
     display: flex;
@@ -61,7 +62,8 @@
     width: 100%;
   }
   .banner {
-    display: none;
+  width: 100%;
+  height: auto;
   }
   
   .about{
